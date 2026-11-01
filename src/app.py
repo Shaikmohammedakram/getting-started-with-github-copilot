@@ -90,12 +90,16 @@ activities = {
     "Photography Club": {
         "description": "Learn photography techniques and create photo projects",
         "schedule": "Mondays, 3:30 PM - 4:30 PM",
+        # Validate student is not already signed up
+        # ...
         "max_participants": 15,
         "participants": []
     },
     "Creative Writing Club": {
         "description": "Develop storytelling skills and share original writing",
         "schedule": "Tuesdays, 3:30 PM - 4:30 PM",
+        # Validate student is not already signed up
+        # ...
         "max_participants": 15,
         "participants": []
     },
